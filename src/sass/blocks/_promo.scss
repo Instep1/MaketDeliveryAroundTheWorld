@@ -1,0 +1,19 @@
+.promo {
+    height: 680px;
+    background: url(../../img/bg_header.png) center center/cover no-repeat;
+    &__divider {
+        display: flex;
+        justify-content: center;
+        &-line {
+            width: 405px;
+            height: 1px;
+            background-color: #fff
+        }
+        &-circle {
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 100%;
+        }
+    }
+}

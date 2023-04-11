@@ -1,0 +1,40 @@
+.header {
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        &-item {
+            font-size: 13px;
+            padding-left: 15px;
+            border-right: 2px dotted gray;
+            padding-right: 15px;
+            &:last-child {
+                border: none;
+            }
+            a {
+            color: #fff;
+            text-decoration: none;
+            transition: all .9s;
+            &:hover {
+                color: #ec644b;
+                border-bottom: 1px solid #ec644b;
+            }
+        }
+        }
+    }
+    &__call {
+        &_text {
+            text-align: right;
+            color: #fff;
+            font-size: 14px;
+        }
+        &_tel {
+            color: #fff;
+            font-size: 19px;
+        }
+    }
+}
