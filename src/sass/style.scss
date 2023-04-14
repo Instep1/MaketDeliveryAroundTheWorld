@@ -26,5 +26,33 @@
     text-transform: uppercase
 }
 
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: #ec644b;
+    margin: 20px auto 0 auto;
+}
+
+.title {
+    padding-top: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+}
+.subtitle {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 17px auto 0 auto;
+    color: #2e2e2e;
+    width: 879px;
+    line-height: 21px;
+}
+
 @import 'blocks/promo';
 @import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/organisation';
+@import 'blocks/agency';
+@import 'blocks/price';

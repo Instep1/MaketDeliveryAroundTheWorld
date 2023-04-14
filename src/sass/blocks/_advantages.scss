@@ -1,0 +1,29 @@
+.advantages {
+    background-color: #f3f3f3;
+    height: 590px;
+    &__list {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(510px, auto));
+        grid-template-rows: repeat(4, minmax(60px, auto));
+        column-gap: 85px;
+        row-gap: 35px;
+        &-item {
+            display: flex;
+        }
+        &-text {
+            margin-left: 20px;
+        }
+        &-head {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &-subheader {
+            width: 420px;
+            font-size: 13px;
+            font-weight: 300;
+            margin-top: 6px;
+        }
+    }
+}

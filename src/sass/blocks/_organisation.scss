@@ -1,0 +1,24 @@
+.organisation {
+    &__list {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &-head {
+            text-align: center;
+            margin-top: 27px;
+            font-size: 17px;
+            font-weight: 700;
+            color: #ec644b
+        }
+        &-text {
+            margin-top: 3px;
+            width: 359px;
+            font-size: 12px;
+            font-weight: 300;
+            padding-bottom: 57px;
+            text-align: center;
+        }
+    }
+}

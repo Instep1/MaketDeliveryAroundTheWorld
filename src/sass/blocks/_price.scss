@@ -1,0 +1,48 @@
+.price {
+    &__cards {
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 261px;
+        height: 355px;
+        text-align: center;
+        border: 1px solid #e9e9e9;
+        &-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 61px;
+            background-color: #25333c;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        &-image {
+            margin-top: 14px;
+        }
+        &-delivery {
+            margin-top: 12px;
+            text-transform: uppercase;
+            color: #2e2e2e;
+            font-size: 14px;
+        }
+        &-money {
+            color: #ec644b;
+            font-size: 28px;
+        }
+        &-text {
+            margin-top: 5px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color:#2e2e2e;
+        }
+    }
+    &__consult {
+        margin-top: 56px;
+        text-align: center;
+        font-size: 28px;
+    }
+}
