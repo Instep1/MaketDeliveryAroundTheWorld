@@ -1,0 +1,25 @@
+.manage {
+    height: 342px;
+    background: url(../../img/bg_manage.png) center center/cover no-repeat;
+    &__wrapper {
+        padding-top: 58px;
+        text-align: center;
+    }
+    &__image {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: 26px;
+        color: #fff;
+        font-weight: 700;
+    }
+    &__subtitle {
+        margin-top: 22px;
+        font-size: 21px;
+        color: #fff;
+        font-weight: 300;
+    }
+}

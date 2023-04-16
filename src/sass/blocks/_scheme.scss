@@ -1,0 +1,32 @@
+.scheme {
+    background-color: #f3f3f3;
+    height: 454px;
+    &__list {
+        width: 1140px;
+        height: 100%;
+        padding-top: 33px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(260px, auto));
+        grid-template-rows: repeat(2, minmax(77px, auto));
+        column-gap: 45px;
+        row-gap: 23px;
+        justify-content: center;
+    }
+    &__item {
+        text-align: center;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        &-head {
+            font-size: 16px;
+            color: #ec644b;
+            font-weight: 700;
+        }
+        &-subhead {
+            font-size: 14px;
+            color: #3a3a3a;
+            font-weight: 300;
+        }
+    }
+}
