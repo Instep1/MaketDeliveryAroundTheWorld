@@ -4,8 +4,32 @@
     &__header {
         display: flex;
         justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 26px;
         &_title {
             display: flex;
+            align-items: center;
+            color: #fff;
+            &-text{
+                margin-left: 44px;
+                font-weight: 700;
+            }
+        }
+        &_contact {
+            color: #fff;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            &-tel {
+                text-decoration: none;
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+        &_wrapper {
+            &-btn{
+                padding-left: 15px;
+            }
         }
     }
     &__divider {
@@ -16,15 +40,22 @@
     } 
     &__subheader {
         display: flex;
-        justify-content: space-around;
-        &-create {
-            &:after {
-                content: "";
-                display: block;
-                width: 30px;
-                height: 30px;
-                background-image: url(../../icons/footer/less.png);
-                background-size: cover;
+        justify-content: space-between;
+        padding-top: 19px;
+        color: rgba(255, 255, 255, 0.6);
+        &-policy {
+            a {
+            color: #ec644b;
+            text-decoration: none;
+            border-bottom: 1px solid #ec644b;
+            font-weight: 300;
+            }
+        }
+        &_website {
+            display: flex;
+            align-items: center;
+            &-create {
+                padding-right: 10px;
             }
         }
     }
